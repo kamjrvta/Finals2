@@ -7,8 +7,8 @@ include 'functions.php';
 <?=template_header('Home')?>
     
 <div class="content">
-    <h2>Register you School Id by clicking the Button Below</h2>
-    <a href="create.php" class="register">Register Now!</a>
+    <h2>REGISTER YOUR SCHOOL ID</h2>
+    <a href="create.php" class="register">Get Started!</a>
 </div>
 
 <?=template_footer()?>

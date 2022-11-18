@@ -8,11 +8,11 @@
 
  }
  .navtop {
-   background-color:#00704a;
+   background-color:black;
    height: 60px;
    width: 100%;
    border: 0;
-}
+  }
 .navtop div {
    display: flex;
    margin: 0 auto;
@@ -22,6 +22,8 @@
 .navtop div h1, .navtop div a {
    display: inline-flex;
    align-items: center;
+    font-family: century gothic;
+
 }
 .navtop div h1 {
    flex: 1;
@@ -30,6 +32,7 @@
    margin: 0;
    color:#EEFCE9;
    font-weight: normal;
+   font-family: century gothic;
 }
 .navtop div a {
    padding: 0 20px;
@@ -47,6 +50,7 @@
 .content {
    width: 1000px;
    margin: 0 auto;
+
 }
 .content h2 {
    margin: 0;
@@ -54,6 +58,7 @@
    font-size: 22px;
    border-bottom: 1px solid #ebebeb;
    color: #666666;
+   font-family: century gothic;
 }
  .header{
    width: 30%;
@@ -76,6 +81,7 @@
    color: #FFFFFF;
    padding: 10px 15px;
    margin: 15px 0;
+   font-family: century gothic;
 }
 .register {
    background-color: #00704A;
@@ -88,6 +94,7 @@
    border: 1px solid #B0C4DE;
    background: white;
    border-radius: 0px 0px 10px 10px;
+   font-family: century gothic;
 
  }
 .input-group{
@@ -156,14 +163,18 @@
    color: #FFFFFF;
    padding: 5px 10px;
    margin: 15px 0 15px 5px;
+   font-family: century gothic;
 }
 .pagination a:hover {
-   background-color: #999b9d;
+   background-color: black;
+ 
 }
 .read table {
    width: 100%;
    padding-top: 30px;
    border-collapse: collapse;
+   
+   font-family: century gothic;
 }
 .read table thead {
    background-color: #ebeef1;
@@ -182,7 +193,7 @@
    background-color: #fbfcfc;
 }
 .read table tbody tr:hover {
-   background-color: #376ab7;
+   background-color: black;
 }
 .read table tbody tr:hover td {
    color: #FFFFFF;
@@ -275,11 +286,12 @@
 .delete .yesno a {
    display: inline-block;
    text-decoration: none;
-   background-color: #38b673;
+   background-color: black;
    font-weight: bold;
    color: #FFFFFF;
    padding: 10px 15px;
    margin: 15px 10px 15px 0;
+   font-family: century gothic;
 }
 .delete .yesno a:hover {
    background-color: #32a367;

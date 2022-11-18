@@ -18,7 +18,7 @@ if (!empty($_POST)) {
     
     // Insert new record into the records table
     $stmt = $pdo->prepare('INSERT INTO records VALUES (?, ?, ?, ?, ?, ?,?,?)');
-    $stmt->execute([$id, $first_name,$last_name, $address, $phone, $course, $birthdate,$contact]);
+    $stmt->execute([$id, $first_name, $last_name, $address, $phone, $course, $birthdate, $contact]);
     // Output message
     $msg = 'Submitted Successfully!';
 }
@@ -52,13 +52,13 @@ if (!empty($_POST)) {
 
         <div class="input-group">
             <label>ID Number</label>
-            <input type="text" id="id" name="id number"placeholder ="19-2518-829" maxlength="11" oninput ="this.value = this.value.replace(/[^0-9-]/g,'').replace(/(\..*)\./g,'$1');">
+            <input type="text" id="id" name="id"placeholder ="19-2518-829" maxlength="11" oninput ="this.value = this.value.replace(/[^0-9-]/g,'').replace(/(\..*)\./g,'$1');">
         </div>
  
 <div class="input-group">
         <form action="/action_page.php">
         <label for="course">Course</label>
-        <select name="courses" id="course">
+        <select name="course" id="course">
          <option value="BSIT">Bachelor of Science In Information Technology</option>
          <option value="BSCS">Bachelor of Science In Computer Science</option>
         <option value="BAPS">Bachelor of Arts in Political Science</option>
@@ -70,12 +70,12 @@ if (!empty($_POST)) {
 
         <div class="input-group">
             <label>Address</label>
-            <input type="text" id="address" name="Address" placeholder="Barangay, Town, Province">
+            <input type="text" id="address" name="address" placeholder="Barangay, Town, Province">
         </div>
 
         <div class="input-group">
             <label>Phone Number</label>
-            <input type="text" name="phonenumber" placeholder ="09203559953" maxlength="11" oninput ="this.value = this.value.replace(/[^0-9-]/g,'').replace(/(\..*)\./g,'$1');">
+            <input type="text" name="phone" placeholder ="09203559953" maxlength="11" oninput ="this.value = this.value.replace(/[^0-9-]/g,'').replace(/(\..*)\./g,'$1');">
         </div>
 
         <div class="input-group">
@@ -85,7 +85,7 @@ if (!empty($_POST)) {
 
         <div class="input-group">
             <label>In case of emergency, please contact:</label>
-            <input type="text" id="contact" name="EmergencyContact" placeholder="Park Seo Joon (spouse)">
+            <input type="text" id="contact" name="contact" placeholder="Park Seo Joon (spouse)">
         </div>
     
      
